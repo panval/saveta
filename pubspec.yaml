@@ -8,10 +8,25 @@ version: 1.0.0+1
 environment:
   sdk: ">=2.16.0 <3.0.0"
 
+
 dependencies:
-  flutter_zoom_drawer: ^2.3.1+1
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  provider: ^6.0.2
+
+  resizable_widget: ^1.0.5
+
+  syncfusion_flutter_calendar: ^20.1.48
+  syncfusion_localizations: ^20.1.50
+
+  permission_handler: ^9.2.0
+
+  intl: ^0.17.0
+
+
 
   cupertino_icons: ^1.0.2
 
@@ -22,6 +37,8 @@ dev_dependencies:
   flutter_lints: ^1.0.0
 
 flutter:
+  assets:
+    - assets/images/flutterlogo.png
   uses-material-design: true
 
   fonts:
